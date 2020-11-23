@@ -3,4 +3,5 @@
 a collection of my old projects back in my senior high days
 
 **Encryption**         - [om_crypt](https://github.com/mrdcvlsc/om_crypt)
+
 **auto clicker&typer** - [vtyper_forwindows](https://github.com/mrdcvlsc/old-projects-dump/tree/main/vtyper_forwindows) 
