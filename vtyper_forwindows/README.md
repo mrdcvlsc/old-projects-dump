@@ -1,5 +1,7 @@
 # vtyper_forwindows
 
+### USE THIS FOR AUTO CLICKS AND AUTO PRESS ##
+
 ## functions
 
 **mouse_DownClick()**
