@@ -33,28 +33,26 @@ using namespace std;
 
 void mouse_DownClick(int pos_X, int pos_Y){
      SetCursorPos(pos_X,pos_Y);
-     cout<<"position Down x : "<<pos_X<<endl;
-     cout<<"position Down y : "<<pos_Y<<endl;
-     cout<<"\nwait for 6 sec..."<<endl;
-     Sleep(6000);
+     cout<<"mouse: right click HOLD - coordinate : ("<<pos_X<<','<<pos_Y<<')'<<endl;
+     //cout<<"\nwait for 6 sec..."<<endl;
+     Sleep(200);
      mouse_event(MOUSEEVENTF_LEFTDOWN,pos_X,pos_Y,0,0);
-     Sleep(25);
+     Sleep(200);
 }
 
 void mouse_UPClick(int pos_X, int pos_Y){
      SetCursorPos(pos_X,pos_Y);
-     cout<<"\nposition UP x : "<<pos_X<<endl;
-     cout<<"position UP y : "<<pos_Y<<endl;
-     cout<<"wait for 6 sec..."<<endl;
-     Sleep(6000);
+     cout<<"mouse: right click RELEASE HOLD - coordinate : ("<<pos_X<<','<<pos_Y<<')'<<endl;
+     //cout<<"wait for 6 sec..."<<endl;
+     Sleep(200);
      mouse_event(MOUSEEVENTF_LEFTUP,pos_X,pos_Y,0,0);
-     Sleep(25);
+     Sleep(200);
 }
 
 void virtual_key_press(char char_input){
 
      switch(char_input){
-
+               
           case 'a':
                keybd_event(0x41,0,0,0);
                keybd_event(0x41,0,KEYEVENTF_KEYUP,0);
